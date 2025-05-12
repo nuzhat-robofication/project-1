@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url('2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon {
+    width: 200px;
+    height: 70px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Georgia;
+    padding-left: 0px;
+    margin-top: 20px;
+    }
+
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+    ul{
+        display: flex;
+        gap: 50px;
+        list-style: none;
+    }
+  
+    ul li{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 14px;
+    }
+
+    ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+
+    ul li a:hover {
+        color: #ff7200;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        border: 0.5px solid #ff7200;
+        border-radius: 5px;
+        overflow: hidden;
+        background: transparent;
+        margin-top: 12px;
+    }
+    
+    .search input{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        color: white;
+        border-right: none;
+        font-size: 16px;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+ 
+    .btn {
+        width: 100px;
+        height: 40px;
+        background: #ff7200;
+        border: 2px solid #ff7200;
+        color: white;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        font-family:'Times New Roman';
+        transition: 0.2s ease;
+        cursor: pointer;
+    }  
+
+    .btn:hover {
+        color: #000;
+    }
+    .btn:focus {
+        outline: none;
+    }
+
+    .search input:focus {
+        outline: none;
+    }
+
+    .content {
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        padding-top: 100px; /* pushes it down from nav */
+        padding-left: 40px;
+        color: white;
+        position: relative;
+      }
+      
+      .content h1 {
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 60px;
+      }
+      
+      .content h1 span {
+        color: #ff7200;
+      }
+      
+      .par {
+        padding-top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        width: 600px;
+      }
+      
+      .cn {
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #ff7200;
+        padding: 10px 20px;
+        color: #ff7200;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      
+      .cn a {
+        text-decoration: none;
+        color: #ff7200;
+        font-weight: bold;
+      }
+      
+      .cn:hover {
+        background: #ff7200;
+        color: white;
+      }
+      
+      .cn:hover a {
+        color: white;
+      }
+
+      .form {
+        width: 250px;
+        height: 450px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: 90px;
+        left: 870px;
+        border-radius: 10px;
+        padding: 25px;
+      }
+
+      .form h2 {
+        width: 220px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #ff7200;
+        font-size: 22px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+      }
+
+      .form input {
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+      }
+
+      .form input:focus {
+        outline: none;
+      }
+
+      ::placeholder {
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .btnn {
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px; 
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition: 0.4s ease;
+      }
+
+      .btnn:hover {
+        background: white;
+        color: #ff7200;
+      }
+
+      .btnn a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+
+      .form .link {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+        line-height: 1.6;
+      }
+
+      .form .link a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 8px;
+      }
+
+      .liw {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 17px;
+      }
+
+      .icon {
+        text-decoration: none;
+        color: white;
+      }
+
+      .icon ion-icon {
+        color: white;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 5px;
+        transition: 0.3s ease;
+      }
+
+      .icon ion-icon:hover {
+        color: #ff7200
+      }
+
+      .orange-text {
+        color: #ff7200;
+      }
+
+      .contact-form input, .contact-form textarea {
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+        margin-top: 15px;
+        background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%);
+        border: 1px solid #ff7200;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border-radius: 5px;
+      }
+      .contact-form textarea {
+        resize: vertical;
+      }
+
+      .contact-form button.btn {
+        margin-top: 20px;
+        background-color: #ff7200;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .contact-form button.btn:hover {
+        background-color: white;
+        color: #ff7200;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
