@@ -7,10 +7,12 @@ html{
   
   body{
     min-height: 100vh;
-    background-image: url(carbg1.jpg);
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(../images-icons/carbg1.jpg);
     background-size: cover;
-    background-position: right;
+    background-attachment: fixed;
+    background-position: center;
     overflow: hidden;
+
   }
 
   .wrapper{
@@ -30,7 +32,7 @@ html{
     font-size: 3rem;
     font-weight: 900;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: #ff7200;
   }
 
