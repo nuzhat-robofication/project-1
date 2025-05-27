@@ -1,0 +1,69 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12;
+    color: white;
+    text-align: center;
+  }
+  
+  body{
+    min-height: 100vh;
+    background-image: url(carbg1.jpg);
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+  }
+
+  .wrapper{
+    box-sizing: border-box;
+    background-color: black;
+    height: 100vh;
+    width: max(40%, 600px);
+    padding: 10px;
+    border-radius: 0 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1{ 
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+    color: #ff7200;
+  }
+
+  h2{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  form{
+    width: min(400px, 100%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  form > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  form label svg{
+    flex-shrink: 0;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    fill: #ff7200;
+    color: #ff7200;
+    border-radius: 10px 0 0 10px;
+    justify-content: center;
+    align-items: center;
+  }
